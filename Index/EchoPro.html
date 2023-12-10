@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="sv">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Echo Pro - Veckans Erbjudanden</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            background-color: #f8f8f8;
+            color: #333;
+        }
+
+        header {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+        }
+
+        nav {
+            display: flex;
+            justify-content: center;
+            margin-top: 1em;
+        }
+
+        nav a {
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em 1em;
+            margin: 0 1em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        nav a:hover {
+            background-color: #555;
+        }
+
+        #main-content {
+            text-align: center;
+            padding: 2em;
+        }
+
+        #weekly-offers {
+            display: flex;
+            justify-content: space-around;
+            flex-wrap: wrap;
+
+        }
+
+
+
+
+        .store-offer {
+            width: 300px;
+            border: 1px solid #ddd;
+            padding: 1em;
+            margin: 1em;
+            background-color: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            transition: 0.3s;
+            cursor:default;
+        }
+
+        .store-offer:hover{ 
+            box-shadow: 10px 10px 10px black;
+        }
+
+        .store-offer img {
+            max-width: 100%;
+            height: auto;
+            border-radius: 5px;
+            margin-bottom: 1em;
+        }
+
+        .store-link {
+            display: inline-block;
+            background-color: #333;
+            color: #fff;
+            text-decoration: none;
+            padding: 0.5em;
+            border-radius: 5px;
+            transition: background-color 0.3s ease;
+        }
+
+        .store-link:hover {
+            background-color: #555;
+        }
+
+        footer {
+            background-color: #333;
+            color: #fff;
+            text-align: center;
+            padding: 1em;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <h1>Echo Pro</h1>
+        <nav>
+            <a href="#coop-offers">Coop</a>
+            <a href="#ica-offers">ICA</a>
+            <a href="#willys-offers">Willys</a>
+            <a href="#Lidl-offers">Lidl</a>
+            <a href="#Pekos-offers">Pekos</a>
+        </nav>
+    </header>
+
+    <section id="main-content">
+        <h2>Välkommen till Echo Pro</h2>
+        <p>
+            <strong>Ekar ut Erbjudanden</strong> från Coop, ICA, och Willys varje vecka.
+            Hitta fantastiska produkter till oslagbara priser. 
+        </p>
+    </section>
+
+    <section id="weekly-offers">
+        <div class="store-offer" id="coop-offers">
+            <h2>Coop - Veckans Erbjudanden</h2>
+        <!-- Hej darin lägg till erbjudanden här(detta är en kommentar och kommer ej synas på websidan)-->
+        <a target="_blank" href="https://www.coop.se/" class="store-link">Besök Coop</a>
+        </div>
+
+        <div class="store-offer" id="ica-offers">
+            <h2>ICA - Veckans Erbjudanden</h2>
+        <!-- Hej darin lägg till erbjudanden här(detta är en kommentar och kommer ej synas på websidan)-->
+        <a target="_blank" href="https://www.ica.se/erbjudanden/maxi-ica-stormarknad-valsviken-1003565/" class="store-link">Besök ICA</a>
+        </div>
+
+        <div class="store-offer" id="willys-offers">
+            <h2>Willys - Veckans Erbjudanden</h2>
+        <!-- Hej darin lägg till erbjudanden här(detta är en kommentar och kommer ej synas på websidan)-->
+        <a target="_blank" href="https://www.kampanjveckan.se/reklamblad/Dagligvaror/WILLY:S" class="store-link">Besök Willys</a>
+        </div>
+
+        <div class="store-offer" id="Lidl-offers">
+            <h2>Lidl - Veckans Erbjudanden</h2>
+        <!-- Hej darin lägg till erbjudanden här(detta är en kommentar och kommer ej synas på websidan)-->
+        <a target="_blank" href="https://www.lidl.se/c/reklamblad/s10018018" class="store-link">Besök Lidl</a>
+        </div>
+
+        <div class="store-offer" id="Pekos-offers">
+            <h2>Pekos - Veckans Erbjudanden</h2>
+        <!-- Hej darin lägg till erbjudanden här(detta är en kommentar och kommer ej synas på websidan)-->
+            <a target="_blank" href="https://pekas.se/kampanjblad/" class="store-link">Besök Pekos</a>
+        </div>
+
+
+    </section>
+
+    <footer>
+        <p>&copy; 2023 Echo Pro</p>
+    </footer>
+
+</body>
+</html>
